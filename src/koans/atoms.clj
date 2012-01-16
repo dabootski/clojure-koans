@@ -27,4 +27,5 @@
   "When your expectations are aligned with reality things, proceed that way"
   (= :fin (do
             (compare-and-set! __ __ __)
-            @atomic-clock)))
+            @atomic-clock))
+  )
